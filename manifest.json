@@ -1,0 +1,22 @@
+{
+    "name": "Lucy and Cody's Valentines Rewind 2025",
+    "short_name": "Val Rewind 2025",
+    "start_url": "./index.html",
+    "icons": [
+        {
+            "src": "assets/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "assets/favicon256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+  }

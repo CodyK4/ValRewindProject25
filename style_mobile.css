@@ -1,0 +1,211 @@
+/*MOBILE MONITORS*/
+@media only screen and (max-width: 600px) {
+
+    main {
+        margin: 0;
+    }
+
+    .SectionTitle {
+        margin-bottom: 22vh;
+        font-size: 16vw; 
+        /*font-family: Arial, Helvetica, sans-serif;*/
+        color: white; 
+        text-shadow: 0.85vw 0.85vw purple;
+        transition: all .5s;
+        animation: surpriseAnimation 4s ease;
+    }
+
+    .SectionTitle {
+        margin-bottom: 22vh;
+        font-size: 16vw; 
+        /*font-family: Arial, Helvetica, sans-serif;*/
+        color: white; 
+        text-shadow: 0.85vw 0.85vw purple;
+        transition: all .5s;
+        animation: surpriseAnimation 4s ease;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 100vw;
+        height: 100vh;
+        scroll-snap-align: start;
+    }
+    
+    #SectionA {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transition: all 0.5s;
+      }
+      
+      #SectionA::before,
+      #SectionA::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        z-index: -1;
+      }
+      
+      #SectionA::before {
+        background: linear-gradient(20deg, black, purple);
+        animation: sa_grade_in 15s ease infinite;
+      }
+      
+      #SectionA::after {
+        background: linear-gradient(280deg, black, pink);
+        animation: sa_grade_out 15s ease infinite;
+      }
+    
+    #SectionATextA {
+        margin-top: -9vh;
+        color: white;
+        width: 63.5vw;
+        font-size: 3vw;
+        animation: typing 2s steps(40), blink .5s step-end infinite alternate;
+        transition: all .2s; 
+        border-right: 3px solid;
+        white-space: nowrap; 
+        overflow: hidden;
+    }
+
+    #SectionATextB {
+        margin-top: 0vh;
+        color: white;
+        font-size: 3vw;
+        margin-top: 10vh;
+        animation: bounceOpac 3s ease;
+        transition: all .2s; 
+    }
+
+    .infobox {
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7.5vh;
+    }
+
+    .SectionUpperText {
+        text-align: center;
+        font-weight: bold;
+        /*text-shadow: 0.85vw 0.85vw purple, 1.85vw 1.85vw pink, 2.85vw 2.85vw red;*/
+        /*transform: rotate(-18deg);*/
+        font-size: 7vw;
+        /*font-family: Arial, Helvetica, sans-serif;*/
+        color: white; 
+        transition: all .5s;
+    }
+
+    .SectionLowerText {
+        text-align: center;
+        width: auto;
+        font-size: 3vw;
+        /*font-family: Arial, Helvetica, sans-serif;*/
+        color: white; 
+        transition: all .5s;
+    }
+    
+    #SectionB {
+        background: radial-gradient(purple, black);
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center;
+    }
+
+    .SectionCol {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SectionImage {
+        background-size: 100% 100%; 
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 20vh; 
+    }
+
+    #SecImg1 {
+        background-image: url(assets/thing1.png);
+    }
+
+    #SecImg2 {
+        background-image: url(assets/shocker.webp);
+        background-color: transparent;
+    }
+
+    #SecImg3 {
+        background-image: url(assets/thing.png);
+    }
+
+    #SecImg4 {
+        background-image: url(assets/lovegeez.png);
+    }
+
+    #SecImg5 {
+        background-image: url(assets/fard.png);
+    }
+    
+    #SectionC {
+        background: radial-gradient(green, black);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #SectionD {
+        background: radial-gradient(blue, black);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #SectionE {
+        background: radial-gradient(red, black);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #SectionF {
+        background: radial-gradient(brown, black);
+    }
+
+    #SectionG {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transition: all 0.5s;
+      }
+      
+      #SectionG::before,
+      #SectionG::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        z-index: -1;
+      }
+      
+      #SectionG::before {
+        background: linear-gradient(20deg, pink, purple);
+        animation: sa_grade_in 15s ease infinite;
+      }
+      
+      #SectionG::after {
+        background: linear-gradient(280deg, red, pink);
+        animation: sa_grade_out 15s ease infinite;
+      }
+    }
